@@ -1,0 +1,23 @@
+[
+  {
+    "id": "golden_competition_landscape",
+    "query": "分析2026年中国新能源乘用车市场竞争格局",
+    "time_range": "最近12个月",
+    "entities": ["新能源乘用车"],
+    "expected_tools": ["targeted-sql-pack", "rag", "web-search", "analysis-framework", "competitor-analyst", "report-generator", "report-generator-agent"]
+  },
+  {
+    "id": "golden_cost_opportunity",
+    "query": "评估15-20万新能源SUV机会、定价和成本风险",
+    "time_range": "最近12个月",
+    "entities": ["新能源SUV", "15-20万"],
+    "expected_tools": ["targeted-sql-pack", "rag", "web-search", "analysis-framework", "cost-analyst", "report-generator", "report-generator-agent"]
+  },
+  {
+    "id": "golden_brand_strategy",
+    "query": "分析比亚迪最近12个月市场策略和竞品压力",
+    "time_range": "最近12个月",
+    "entities": ["比亚迪"],
+    "expected_tools": ["targeted-sql-pack", "rag", "analysis-framework", "competitor-analyst", "report-generator", "report-generator-agent"]
+  }
+]
